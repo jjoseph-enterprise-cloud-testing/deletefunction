@@ -1,0 +1,165 @@
+[2022-07-08 12:56:37Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2022-07-08 12:56:37Z INFO HostContext] Well known directory 'Bin': 'C:\Users\UKE6YIS\actions-runner\bin'
+[2022-07-08 12:56:37Z INFO HostContext] Well known directory 'Root': 'C:\Users\UKE6YIS\actions-runner'
+[2022-07-08 12:56:37Z INFO HostContext] Well known config file 'Credentials': 'C:\Users\UKE6YIS\actions-runner\.credentials'
+[2022-07-08 12:56:37Z INFO HostContext] Well known directory 'Bin': 'C:\Users\UKE6YIS\actions-runner\bin'
+[2022-07-08 12:56:37Z INFO HostContext] Well known directory 'Root': 'C:\Users\UKE6YIS\actions-runner'
+[2022-07-08 12:56:37Z INFO HostContext] Well known config file 'Runner': 'C:\Users\UKE6YIS\actions-runner\.runner'
+[2022-07-08 12:56:37Z INFO Listener] Runner is built for Windows (X64) - win-x64.
+[2022-07-08 12:56:37Z INFO Listener] RuntimeInformation: Microsoft Windows 10.0.19042.
+[2022-07-08 12:56:37Z INFO Listener] Version: 2.285.1
+[2022-07-08 12:56:37Z INFO Listener] Commit: 50afba61b40932c1084e31b5e9e7f5af325cc2ac
+[2022-07-08 12:56:37Z INFO Listener] Culture: en-US
+[2022-07-08 12:56:37Z INFO Listener] UI Culture: en-US
+[2022-07-08 12:56:37Z INFO HostContext] Well known directory 'Bin': 'C:\Users\UKE6YIS\actions-runner\bin'
+[2022-07-08 12:56:37Z INFO HostContext] Well known directory 'Root': 'C:\Users\UKE6YIS\actions-runner'
+[2022-07-08 12:56:37Z INFO Listener] Validating directory permissions for: 'C:\Users\UKE6YIS\actions-runner'
+[2022-07-08 12:56:37Z INFO CommandLineParser] Parse
+[2022-07-08 12:56:37Z INFO CommandLineParser] Parsing 1 args
+[2022-07-08 12:56:37Z INFO CommandLineParser] parsing argument
+[2022-07-08 12:56:37Z INFO CommandLineParser] HasArgs: False
+[2022-07-08 12:56:37Z INFO CommandLineParser] Adding Command: run
+[2022-07-08 12:56:37Z INFO Listener] Arguments parsed
+[2022-07-08 12:56:37Z INFO Runner] ExecuteCommand
+[2022-07-08 12:56:37Z INFO ConfigurationStore] currentAssemblyLocation: C:\Users\UKE6YIS\actions-runner\bin\Runner.Listener.dll
+[2022-07-08 12:56:37Z INFO HostContext] Well known directory 'Bin': 'C:\Users\UKE6YIS\actions-runner\bin'
+[2022-07-08 12:56:37Z INFO ConfigurationStore] binPath: C:\Users\UKE6YIS\actions-runner\bin
+[2022-07-08 12:56:37Z INFO HostContext] Well known directory 'Bin': 'C:\Users\UKE6YIS\actions-runner\bin'
+[2022-07-08 12:56:37Z INFO HostContext] Well known directory 'Root': 'C:\Users\UKE6YIS\actions-runner'
+[2022-07-08 12:56:37Z INFO ConfigurationStore] RootFolder: C:\Users\UKE6YIS\actions-runner
+[2022-07-08 12:56:37Z INFO HostContext] Well known directory 'Bin': 'C:\Users\UKE6YIS\actions-runner\bin'
+[2022-07-08 12:56:37Z INFO HostContext] Well known directory 'Root': 'C:\Users\UKE6YIS\actions-runner'
+[2022-07-08 12:56:37Z INFO HostContext] Well known config file 'Runner': 'C:\Users\UKE6YIS\actions-runner\.runner'
+[2022-07-08 12:56:37Z INFO ConfigurationStore] ConfigFilePath: C:\Users\UKE6YIS\actions-runner\.runner
+[2022-07-08 12:56:37Z INFO HostContext] Well known directory 'Bin': 'C:\Users\UKE6YIS\actions-runner\bin'
+[2022-07-08 12:56:37Z INFO HostContext] Well known directory 'Root': 'C:\Users\UKE6YIS\actions-runner'
+[2022-07-08 12:56:37Z INFO HostContext] Well known config file 'Credentials': 'C:\Users\UKE6YIS\actions-runner\.credentials'
+[2022-07-08 12:56:37Z INFO ConfigurationStore] CredFilePath: C:\Users\UKE6YIS\actions-runner\.credentials
+[2022-07-08 12:56:37Z INFO HostContext] Well known directory 'Bin': 'C:\Users\UKE6YIS\actions-runner\bin'
+[2022-07-08 12:56:37Z INFO HostContext] Well known directory 'Root': 'C:\Users\UKE6YIS\actions-runner'
+[2022-07-08 12:56:37Z INFO HostContext] Well known config file 'MigratedCredentials': 'C:\Users\UKE6YIS\actions-runner\.credentials_migrated'
+[2022-07-08 12:56:37Z INFO ConfigurationStore] MigratedCredFilePath: C:\Users\UKE6YIS\actions-runner\.credentials_migrated
+[2022-07-08 12:56:37Z INFO HostContext] Well known directory 'Bin': 'C:\Users\UKE6YIS\actions-runner\bin'
+[2022-07-08 12:56:37Z INFO HostContext] Well known directory 'Root': 'C:\Users\UKE6YIS\actions-runner'
+[2022-07-08 12:56:37Z INFO HostContext] Well known config file 'Service': 'C:\Users\UKE6YIS\actions-runner\.service'
+[2022-07-08 12:56:37Z INFO ConfigurationStore] ServiceConfigFilePath: C:\Users\UKE6YIS\actions-runner\.service
+[2022-07-08 12:56:37Z INFO CommandSettings] Flag 'help': 'False'
+[2022-07-08 12:56:37Z INFO CommandSettings] Flag 'version': 'False'
+[2022-07-08 12:56:37Z INFO CommandSettings] Flag 'commit': 'False'
+[2022-07-08 12:56:37Z INFO CommandSettings] Flag 'check': 'False'
+[2022-07-08 12:56:37Z INFO CommandSettings] Command 'configure': 'False'
+[2022-07-08 12:56:37Z INFO CommandSettings] Command 'remove': 'False'
+[2022-07-08 12:56:37Z INFO CommandSettings] Command 'warmup': 'False'
+[2022-07-08 12:56:37Z INFO ConfigurationManager] LoadSettings
+[2022-07-08 12:56:37Z INFO ConfigurationStore] IsConfigured()
+[2022-07-08 12:56:37Z INFO ConfigurationStore] IsConfigured: True
+[2022-07-08 12:56:37Z INFO ConfigurationManager] Is configured: True
+[2022-07-08 12:56:37Z INFO ConfigurationStore] Read setting file: 335 chars
+[2022-07-08 12:56:37Z INFO ConfigurationManager] Settings Loaded
+[2022-07-08 12:56:37Z INFO ConfigurationStore] IsServiceConfigured()
+[2022-07-08 12:56:37Z INFO ConfigurationStore] IsServiceConfigured: False
+[2022-07-08 12:56:37Z INFO CommandSettings] Command 'run': 'True'
+[2022-07-08 12:56:37Z INFO ConfigurationStore] IsConfigured()
+[2022-07-08 12:56:37Z INFO ConfigurationStore] IsConfigured: True
+[2022-07-08 12:56:37Z INFO ConfigurationManager] Is configured: True
+[2022-07-08 12:56:37Z INFO Runner] Could not parse the argument value '' for StartupType. Defaulting to Manual
+[2022-07-08 12:56:37Z INFO Runner] Set runner startup type - Manual
+[2022-07-08 12:56:37Z INFO CommandSettings] Flag 'once': 'False'
+[2022-07-08 12:56:37Z INFO CommandSettings] Flag 'once': 'False'
+[2022-07-08 12:56:37Z INFO Runner] RunAsync
+[2022-07-08 12:56:37Z INFO ConfigurationManager] LoadSettings
+[2022-07-08 12:56:37Z INFO ConfigurationStore] IsConfigured()
+[2022-07-08 12:56:37Z INFO ConfigurationStore] IsConfigured: True
+[2022-07-08 12:56:37Z INFO ConfigurationManager] Is configured: True
+[2022-07-08 12:56:37Z INFO ConfigurationManager] Settings Loaded
+[2022-07-08 12:56:37Z INFO MessageListener] {
+  "IsHostedServer": false,
+  "AgentId": 1,
+  "AgentName": "laptop",
+  "PoolId": 1,
+  "PoolName": "Default",
+  "ServerUrl": "https://git.hub.vwgroup.com/_services/pipelines/aE8RIY5COO0uWkmMpzePlwImS94Wjq8A89A12rYZxqBe7nhGQG",
+  "GitHubUrl": "https://git.hub.vwgroup.com/reddy-playground/runnerlogs",
+  "WorkFolder": "_work"
+}
+[2022-07-08 12:56:37Z INFO MessageListener] Loading Credentials
+[2022-07-08 12:56:37Z INFO ConfigurationStore] HasCredentials()
+[2022-07-08 12:56:37Z INFO ConfigurationStore] stored True
+[2022-07-08 12:56:37Z INFO CredentialManager] GetCredentialProvider
+[2022-07-08 12:56:37Z INFO CredentialManager] Creating type OAuth
+[2022-07-08 12:56:37Z INFO CredentialManager] Creating credential type: OAuth
+[2022-07-08 12:56:37Z INFO HostContext] Well known directory 'Bin': 'C:\Users\UKE6YIS\actions-runner\bin'
+[2022-07-08 12:56:37Z INFO HostContext] Well known directory 'Root': 'C:\Users\UKE6YIS\actions-runner'
+[2022-07-08 12:56:37Z INFO HostContext] Well known config file 'RSACredentials': 'C:\Users\UKE6YIS\actions-runner\.credentials_rsaparams'
+[2022-07-08 12:56:37Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\UKE6YIS\actions-runner\.credentials_rsaparams
+[2022-07-08 12:56:37Z INFO MessageListener] Attempt to create session.
+[2022-07-08 12:56:37Z INFO MessageListener] Connecting to the Runner Server...
+[2022-07-08 12:56:37Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2022-07-08 12:56:37Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2022-07-08 12:56:37Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2022-07-08 12:56:37Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2022-07-08 12:56:37Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2022-07-08 12:56:37Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2022-07-08 12:56:37Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2022-07-08 12:56:37Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2022-07-08 12:56:37Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2022-07-08 12:56:37Z INFO MessageListener] VssConnection created
+[2022-07-08 12:56:37Z INFO Terminal] WRITE LINE: 
+[2022-07-08 12:56:37Z INFO Terminal] WRITE LINE: 
+[2022-07-08 12:56:37Z WARN GitHubActionsService] Authentication failed with status code 401.
+Date: Fri, 08 Jul 2022 12:56:37 GMT
+Server: Kestrel
+Strict-Transport-Security: max-age=15768000; includeSubDomains
+WWW-Authenticate: Bearer
+x-tfs-processid: 890a6d60-ca4e-46d8-b674-fa93237bc872
+activityid: ba963afe-9b4e-43f9-a968-463be5a46a48
+x-tfs-session: a4c26886-282d-4426-90e7-b2293f7a0cfb
+x-vss-e2eid: 9915773c-f223-4116-b826-37583faa3aed
+x-vss-senderdeploymentid: 0483ff80-753a-1f20-0b95-4c6046671713
+x-tfs-serviceerror: The+user+%27System%3aPublicAccess%3baaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa%27+is+not+authorized+to+access+this+resource.
+x-vss-s2stargetservice: 0000005A-0000-8888-8000-000000000000/visualstudio.com
+X-Frame-Options: DENY
+Transfer-Encoding: chunked
+
+[2022-07-08 12:56:37Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\UKE6YIS\actions-runner\.credentials_rsaparams
+[2022-07-08 12:56:37Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\UKE6YIS\actions-runner\.credentials_rsaparams
+[2022-07-08 12:56:38Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2022-07-08 12:56:38Z INFO MessageListener] Session created.
+[2022-07-08 12:56:38Z INFO Terminal] WRITE LINE: Current runner version: '2.285.1'
+[2022-07-08 12:56:38Z INFO Terminal] WRITE LINE: 2022-07-08 12:56:38Z: Listening for Jobs
+[2022-07-08 12:56:38Z INFO JobDispatcher] Set runner/worker IPC timeout to 30 seconds.
+[2022-07-08 12:58:05Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\UKE6YIS\actions-runner\.credentials_rsaparams
+[2022-07-08 12:58:05Z INFO MessageListener] Message '1' received from session '01ed4dc8-8d9d-47c3-8784-53b2b709b3f7'.
+[2022-07-08 12:58:05Z INFO JobDispatcher] Job request 8 for plan ab973546-619f-4b90-94c0-e09fc4889a20 job ca395085-040a-526b-2ce8-bdc85f692774 received.
+[2022-07-08 12:58:05Z INFO JobDispatcher] Pull OrchestrationId ab973546-619f-4b90-94c0-e09fc4889a20.build.__default from JWT claims
+[2022-07-08 12:58:05Z INFO Terminal] WRITE LINE: 2022-07-08 12:58:05Z: Running job: build
+[2022-07-08 12:58:05Z INFO JobDispatcher] Start renew job request 8 for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2022-07-08 12:58:05Z INFO JobDispatcher] Successfully renew job request 8, job is valid till 7/8/2022 1:08:05 PM
+[2022-07-08 12:58:05Z INFO HostContext] Well known directory 'Bin': 'C:\Users\UKE6YIS\actions-runner\bin'
+[2022-07-08 12:58:05Z INFO ProcessInvokerWrapper] Starting process:
+[2022-07-08 12:58:05Z INFO ProcessInvokerWrapper]   File name: 'C:\Users\UKE6YIS\actions-runner\bin\Runner.Worker.exe'
+[2022-07-08 12:58:05Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 2112 1696'
+[2022-07-08 12:58:05Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\UKE6YIS\actions-runner\bin'
+[2022-07-08 12:58:05Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2022-07-08 12:58:05Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2022-07-08 12:58:05Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2022-07-08 12:58:05Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2022-07-08 12:58:05Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2022-07-08 12:58:05Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2022-07-08 12:58:05Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2022-07-08 12:58:05Z INFO ProcessInvokerWrapper] Process started with process id 16532, waiting for process exit.
+[2022-07-08 12:58:05Z INFO JobDispatcher] Send job request message to worker for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2022-07-08 12:58:05Z INFO ProcessChannel] Sending message of length 23122, with hash '2c9762675e9e5bba24fed6a992771704aee0cb00e4ad8ea2862416b75e0f819c'
+[2022-07-08 12:58:06Z INFO JobNotification] Entering JobStarted Notification
+[2022-07-08 12:58:06Z INFO JobNotification] Entering StartMonitor
+[2022-07-08 12:59:05Z INFO JobDispatcher] Successfully renew job request 8, job is valid till 7/8/2022 1:09:05 PM
+[2022-07-08 13:00:00Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2022-07-08 13:00:00Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2022-07-08 13:00:00Z INFO ProcessInvokerWrapper] Finished process 16532 with exit code 100, and elapsed time 00:01:54.7112620.
+[2022-07-08 13:00:00Z INFO JobDispatcher] Worker finished for job ca395085-040a-526b-2ce8-bdc85f692774. Code: 100
+[2022-07-08 13:00:00Z INFO JobDispatcher] finish job request for job ca395085-040a-526b-2ce8-bdc85f692774 with result: Succeeded
+[2022-07-08 13:00:00Z INFO Terminal] WRITE LINE: 2022-07-08 13:00:00Z: Job build completed with result: Succeeded
+[2022-07-08 13:00:00Z INFO JobDispatcher] Stop renew job request for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2022-07-08 13:00:00Z INFO JobDispatcher] job renew has been canceled, stop renew job request 8.
+[2022-07-08 13:00:00Z INFO JobNotification] Entering JobCompleted Notification
+[2022-07-08 13:00:00Z INFO JobNotification] Entering EndMonitor

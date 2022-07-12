@@ -1,0 +1,119 @@
+2022-06-30T18:10:32.5320061Z Found online and idle self-hosted runner in the current repository's organization account that matches the required labels: 'linux, self-hosted, dependabot'
+2022-06-30T18:10:32.6117002Z Waiting for the runner to pick up this job...
+2022-06-30T18:10:32.9973908Z Job is about to start running on the runner: ubuntu-spot-runner (organization)
+2022-06-30T18:10:36.5947438Z Current runner version: '2.283.3'
+2022-06-30T18:10:36.5952383Z Runner name: 'ubuntu-spot-runner'
+2022-06-30T18:10:36.5953207Z Runner group name: 'Default'
+2022-06-30T18:10:36.5954670Z Machine name: 'ip-10-38-34-134'
+2022-06-30T18:10:36.5958909Z ##[group]GITHUB_TOKEN Permissions
+2022-06-30T18:10:36.5960460Z Actions: write
+2022-06-30T18:10:36.5961074Z Checks: write
+2022-06-30T18:10:36.5962014Z Contents: write
+2022-06-30T18:10:36.5962661Z Deployments: write
+2022-06-30T18:10:36.5963251Z Discussions: write
+2022-06-30T18:10:36.5963869Z Issues: write
+2022-06-30T18:10:36.5964399Z Metadata: read
+2022-06-30T18:10:36.5965028Z Packages: write
+2022-06-30T18:10:36.5965626Z Pages: write
+2022-06-30T18:10:36.5966221Z PullRequests: write
+2022-06-30T18:10:36.5966956Z RepositoryProjects: write
+2022-06-30T18:10:36.5967636Z SecurityEvents: write
+2022-06-30T18:10:36.5968349Z Statuses: write
+2022-06-30T18:10:36.5969125Z ##[endgroup]
+2022-06-30T18:10:36.5972777Z Prepare workflow directory
+2022-06-30T18:10:36.7009705Z Prepare all required actions
+2022-06-30T18:10:36.7022097Z Getting action download info
+2022-06-30T18:10:37.3483667Z Download action repository 'actions/setup-node@v2.4.1' (SHA:270253e841af726300e85d718a5f606959b2903c)
+2022-06-30T18:10:38.1048141Z ##[group]Run actions/setup-node@v2.4.1
+2022-06-30T18:10:38.1049011Z with:
+2022-06-30T18:10:38.1049547Z   node-version: 12
+2022-06-30T18:10:38.1050138Z   always-auth: false
+2022-06-30T18:10:38.1050744Z   check-latest: false
+2022-06-30T18:10:38.1052052Z   token: ***
+2022-06-30T18:10:38.1052586Z ##[endgroup]
+2022-06-30T18:10:38.8190560Z Found in cache @ /home/ubuntu/actions-runner/_work/_tool/node/12.22.9/x64
+2022-06-30T18:10:38.8475725Z ##[group]Run errors=()
+2022-06-30T18:10:38.8476785Z [36;1merrors=()[0m
+2022-06-30T18:10:38.8477386Z [36;1mif ! [ -x "$(command -v git)" ]; then[0m
+2022-06-30T18:10:38.8478570Z [36;1m  errors+=('Error: git is not installed. See See https://github.com/git-guides/install-git#install-git-on-linux for info on how to install it.')[0m
+2022-06-30T18:10:38.8479671Z [36;1mfi[0m
+2022-06-30T18:10:38.8480231Z [36;1mif ! [ -x "$(command -v docker)" ]; then[0m
+2022-06-30T18:10:38.8481318Z [36;1m  errors+=('Error: docker is not installed. See https://docs.docker.com/engine/install/#server for info on how to install it.')[0m
+2022-06-30T18:10:38.8482655Z [36;1mfi[0m
+2022-06-30T18:10:38.8483241Z [36;1mif ! docker info > /dev/null 2>&1; then[0m
+2022-06-30T18:10:38.8484178Z [36;1m  errors+=('Error: Cannot connect to docker. Make sure docker is running and accessible by the actions runner.')[0m
+2022-06-30T18:10:38.8485138Z [36;1mfi[0m
+2022-06-30T18:10:38.8485617Z [36;1m[0m
+2022-06-30T18:10:38.8486186Z [36;1mif ! [ ${#errors[@]} -eq 0 ]; then[0m
+2022-06-30T18:10:38.8487196Z [36;1m  echo 'Some required dependencies were not installed, please ensure the following issues are resolved and try again:' >&2[0m
+2022-06-30T18:10:38.8488174Z [36;1m  for err in "${errors[@]}"[0m
+2022-06-30T18:10:38.8488700Z [36;1m  do[0m
+2022-06-30T18:10:38.8489210Z [36;1m    echo "$err" >&2[0m
+2022-06-30T18:10:38.8489747Z [36;1m  done[0m
+2022-06-30T18:10:38.8490230Z [36;1m  exit 1[0m
+2022-06-30T18:10:38.8490724Z [36;1mfi[0m
+2022-06-30T18:10:38.8585612Z shell: /usr/bin/bash -e {0}
+2022-06-30T18:10:38.8586220Z ##[endgroup]
+2022-06-30T18:10:40.6166080Z ##[group]Run echo "::add-mask::$(node -e 'console.log(JSON.parse(fs.readFileSync(process.env.GITHUB_EVENT_PATH))[`inputs`][`jobToken`])')"
+2022-06-30T18:10:40.6167733Z [36;1mecho "::add-mask::$(node -e 'console.log(JSON.parse(fs.readFileSync(process.env.GITHUB_EVENT_PATH))[`inputs`][`jobToken`])')"[0m
+2022-06-30T18:10:40.6169257Z [36;1mecho "::add-mask::$(node -e 'console.log(JSON.parse(fs.readFileSync(process.env.GITHUB_EVENT_PATH))[`inputs`][`credentialsToken`])')"[0m
+2022-06-30T18:10:40.6203660Z shell: /usr/bin/bash -e {0}
+2022-06-30T18:10:40.6204376Z ##[endgroup]
+2022-06-30T18:10:41.1317902Z ##[group]Run mkdir -p  ./dependabot-job-518-1656612627
+2022-06-30T18:10:41.1318987Z [36;1mmkdir -p  ./dependabot-job-518-1656612627[0m
+2022-06-30T18:10:41.1342716Z shell: /usr/bin/bash -e {0}
+2022-06-30T18:10:41.1343326Z ##[endgroup]
+2022-06-30T18:10:41.1487160Z ##[group]Run rm -rf updater # on self hosted runners this might still be there, always get a fresh copy for now
+2022-06-30T18:10:41.1488422Z [36;1mrm -rf updater # on self hosted runners this might still be there, always get a fresh copy for now[0m
+2022-06-30T18:10:41.1489336Z [36;1mmkdir updater[0m
+2022-06-30T18:10:41.1490646Z [36;1m/usr/bin/git clone --branch="v1" --no-tags --no-recurse-submodules --depth=1 https://github.com/dependabot/updater-action updater[0m
+2022-06-30T18:10:41.1513490Z shell: /usr/bin/bash -e {0}
+2022-06-30T18:10:41.1514086Z ##[endgroup]
+2022-06-30T18:10:41.2375663Z Cloning into 'updater'...
+2022-06-30T18:10:42.2404333Z Note: switching to '54fdf995ed3b3d4655fd6199f0a5f3055dde6bd5'.
+2022-06-30T18:10:42.2405595Z 
+2022-06-30T18:10:42.2407171Z You are in 'detached HEAD' state. You can look around, make experimental
+2022-06-30T18:10:42.2409448Z changes and commit them, and you can discard any commits you make in this
+2022-06-30T18:10:42.2410974Z state without impacting any branches by switching back to a branch.
+2022-06-30T18:10:42.2411811Z 
+2022-06-30T18:10:42.2412963Z If you want to create a new branch to retain commits you create, you may
+2022-06-30T18:10:42.2416121Z do so (now or later) by using -c with the switch command. Example:
+2022-06-30T18:10:42.2416684Z 
+2022-06-30T18:10:42.2417570Z   git switch -c <new-branch-name>
+2022-06-30T18:10:42.2418044Z 
+2022-06-30T18:10:42.2418680Z Or undo this operation with:
+2022-06-30T18:10:42.2419103Z 
+2022-06-30T18:10:42.2419788Z   git switch -
+2022-06-30T18:10:42.2420151Z 
+2022-06-30T18:10:42.2421095Z Turn off this advice by setting config variable advice.detachedHead to false
+2022-06-30T18:10:42.2421745Z 
+2022-06-30T18:10:42.2986521Z ##[group]Run ./updater
+2022-06-30T18:10:42.2987144Z env:
+2022-06-30T18:10:42.2988235Z   GITHUB_TOKEN: ***
+2022-06-30T18:10:42.2988807Z ##[endgroup]
+2022-06-30T18:10:42.4823506Z 🤖 ~ starting update ~
+2022-06-30T18:10:42.4854859Z Fetching job details
+2022-06-30T18:10:42.5674557Z ##[group]Pulling updater images
+2022-06-30T18:10:42.5759545Z Pulling image docker.pkg.github.com/dependabot/dependabot-updater:v1...
+2022-06-30T18:12:13.5428281Z Pulled image docker.pkg.github.com/dependabot/dependabot-updater:v1
+2022-06-30T18:12:15.4147802Z Resolved docker.pkg.github.com/github/dependabot-update-job-proxy:v1 to existing sha256:c292b9610d3f8a1b2fac26a27dc1de29ad7c7c220ec0bc3076ae24198ffd5954
+2022-06-30T18:12:15.4150751Z ##[endgroup]
+2022-06-30T18:12:15.4151487Z Starting update process
+2022-06-30T18:12:16.3120344Z Created proxy container: f3ac1c31e8dc1bd2326ccfdec9b1de0080cc81d42f07cddc16967e41f32b105e
+2022-06-30T18:12:17.6235607Z   proxy | WARNING: ca-certificates.crt does not contain exactly one certificate or CRL: skipping
+2022-06-30T18:12:17.7815049Z   proxy | time="2022-06-30T18:12:17Z" level=info msg="proxy starting" commit=24cceaaac3fd66ea074b0c572536920e3e63f038
+2022-06-30T18:12:17.7825144Z   proxy | time="2022-06-30T18:12:17Z" level=warning msg="initializing metrics client" error="No address passed and autodetection from environment failed"
+2022-06-30T18:12:17.7835099Z   proxy | time="2022-06-30T18:12:17Z" level=warning msg="GitHubAPIHandler has no app access token"
+2022-06-30T18:12:17.7840547Z   proxy | 2022/06/30 18:12:17 Listening (:1080)
+2022-06-30T18:12:27.6615607Z ##[error]Error performing update
+2022-06-30T18:12:27.7297712Z ##[error](HTTP code 404) no such container - No such image: docker.pkg.github.com/dependabot/dependabot-updater:v1 
+2022-06-30T18:12:27.7324432Z ##[error]For more information see: https://github.dev.carnegielearning.com/CarnegieLearning/curate/network/updates/518 (write access required)
+2022-06-30T18:12:27.7359726Z 🤖 ~ finished: error reported to Dependabot ~
+2022-06-30T18:12:27.8294430Z ##[group]Run rm -rf "./dependabot-job-518-1656612627"
+2022-06-30T18:12:27.8295616Z [36;1mrm -rf "./dependabot-job-518-1656612627"[0m
+2022-06-30T18:12:27.8429853Z shell: /usr/bin/bash -e {0}
+2022-06-30T18:12:27.8430549Z ##[endgroup]
+2022-06-30T18:12:27.9030998Z Post job cleanup.
+2022-06-30T18:12:28.1623385Z Pruning networks older than 24h
+2022-06-30T18:12:28.1771770Z Pruning containers older than 24h
+2022-06-30T18:12:28.1896079Z Cleaning up orphan processes

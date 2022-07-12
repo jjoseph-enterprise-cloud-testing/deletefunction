@@ -1,0 +1,35 @@
+name: cleanup-translations
+on:
+  delete
+env:
+  LOKALISE_ACCESS_TOKEN: $ secrets.LOKALISE_ACCESS_TOKEN 
+  
+jobs:
+  cleanup-translations:
+    runs-on: "ubuntu-latest"
+    environment: lokalise
+    if: github.event.ref_type == 'branch'
+    steps:
+      - name: Install Lokalise CLI
+        run: BINDIR=$PWD curl -sfL https://raw.githubusercontent.com/lokalise/lokalise-cli-2-go/master/install.sh | sh
+      - name: Delete Lokalise Branch
+        run: |
+          BRANCH_ID=$( $LOKALISE_ACCESS_TOKEN --project-id $LOKALISE_PROJECT_ID branch list | jq -r '.branches[] | select( .name == "$ github.event.ref ")|.branch_id')
+          if [ -n "$BRANCH_ID" ]; then
+            echo "Deleting Lokalise branch \`$ github.event.ref \` ($BRANCH_ID)"
+            ./bin/lokalise2 --token $LOKALISE_ACCESS_TOKEN --project-id $LOKALISE_PROJECT_ID branch delete --branch-id $BRANCH_ID
+          fi
+      - name: Delete Failed
+        if: $ failure() 
+        uses: rtCamp/action-slack-notify@v2
+        env:
+          SLACK_ICON_EMOJI: ":warning:"
+          SLACK_TITLE: ":globe_with_meridians: Lokalise Translation branch cleanup failure!"
+          SLACK_MESSAGE: "<https://app.lokalise.com/project/771713156284d7ccd32350.21032937/?view=multi&branch=$ github.event.ref |$ github.event.ref >\n Please delete it manually!"
+          SLACK_USERNAME: "Translations branch cleanup failed"
+          SLACK_CHANNEL: "#test-jjoseph-hubot"
+          SLACK_WEBHOOK: "$ secrets.CI_SLACK_WEBHOOK_URL "
+          SLACK_COLOUR: "failure"
+          MSG_MINIMAL: "true"
+          SLACK_MSG_AUTHOR: " "
+          SLACK_FOOTER: "Please contact the Core Services Squad (#sqd-core-services) for assistance if needed."

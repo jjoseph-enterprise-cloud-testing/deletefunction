@@ -2,7 +2,8 @@ name: cleanup-translations
 on:
   delete
 env:
-  LOKALISE_ACCESS_TOKEN: $ secrets.LOKALISE_ACCESS_TOKEN 
+  LOKALISE_ACCESS_TOKEN: $ secrets.LOKALISE_ACCESS_TOKEN
+
   
 jobs:
   cleanup-translations:
